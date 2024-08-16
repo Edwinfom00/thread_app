@@ -16,7 +16,7 @@ const communitySchema = new mongoose.Schema({
   },
   image: String,
   bio: String,
-  createBy: {
+  createdBy: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
